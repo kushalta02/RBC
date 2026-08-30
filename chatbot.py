@@ -57,7 +57,7 @@ def take_order():
             "Please choose from pizza, burger, pasta, or salad."
         )
 
-
+#There was a concept that if extraxct the intent from the user message,intead of full pattern we can define a list and then if any(item ij mesaage for item in food_items) then we can say intent is order and then we can ask for quantity and customization. This will make the code more flexible and scalable.
 # Main chatbot loop
 while True:
 
